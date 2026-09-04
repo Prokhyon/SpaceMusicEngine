@@ -1,0 +1,899 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 934113e1ee00b4a65a37587d92932616, type: 3}
+  m_Name: Level2 MusicProject
+  m_EditorClassIdentifier: Loris.AudioEngine.Runtime::Loris.AudioEngine.MusicProject
+  output: {fileID: 6677770674980757526, guid: 248799cb4acba48f7b3ee842a80f788c, type: 2}
+  defaultFadeInSeconds: 2
+  defaultFadeOutSeconds: 2
+  spaces:
+  - spaceId: Seuil
+    output: {fileID: -6660841111199082399, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 44
+    beatsPerBar: 4
+    barsPerLoop: 8
+    contextPreset: {fileID: 11400000, guid: f3c31af20cdc44c06a0fb60d2ed43be7, type: 2}
+    axes:
+    - axisId: Valence
+      levelCount: 1
+    - axisId: Arousal
+      levelCount: 1
+    - axisId: Tension
+      levelCount: 2
+    layers:
+    - layerId: Seuil Base
+      clip: {fileID: 8300000, guid: ef95cda92171f4b35b78f53062c88831, type: 3}
+      baseVolume: 0.619
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters: []
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Seuil Tension Base
+      clip: {fileID: 8300000, guid: f088a036d36414b5fb475776120eb0e9, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Seuil Acid
+      clip: {fileID: 8300000, guid: 33638918a63494619a2f2cac43cecd03, type: 3}
+      baseVolume: 0.702
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Seuil Tension 2
+      clip: {fileID: 8300000, guid: 7e3e24e5537f94d029d4abafde7c7520, type: 3}
+      baseVolume: 0.71
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Seuil Arousal
+      clip: {fileID: 8300000, guid: 2030559af7fb341bdbc01e314fbbd5b5, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+  - spaceId: Antichambres
+    output: {fileID: -4824555662058644254, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 44
+    beatsPerBar: 4
+    barsPerLoop: 16
+    contextPreset: {fileID: 11400000, guid: 78128e727c9b34cbbb8c57f1ea5f7ab2, type: 2}
+    axes:
+    - axisId: Valence
+      levelCount: 3
+    - axisId: Arousal
+      levelCount: 1
+    - axisId: Tension
+      levelCount: 2
+    layers:
+    - layerId: Antichambres base
+      clip: {fileID: 8300000, guid: 91e4e14fa459743779260479c72650b1, type: 3}
+      baseVolume: 0.733
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 0
+        maxLevel: 1
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Antichambres Acid
+      clip: {fileID: 8300000, guid: 6e77439587c224a7fbef9dcd86892660, type: 3}
+      baseVolume: 0.586
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 1
+        minLevel: 3
+        maxLevel: 3
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Antichambres Light
+      clip: {fileID: 8300000, guid: ddd07c5604e064a8db76f0fcb0441a31, type: 3}
+      baseVolume: 0.601
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Antichambres Anti Arousal
+      clip: {fileID: 8300000, guid: e142ca9a5c80b448db918b1e41401e3d, type: 3}
+      baseVolume: 0.499
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Antichambres Tension 1
+      clip: {fileID: 8300000, guid: 6b1d13fbf846a45c9b5c9db83a840ccc, type: 3}
+      baseVolume: 0.741
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Antichambres Tension 2
+      clip: {fileID: 8300000, guid: 43d05e9807db747b2b0ab563cd4583a6, type: 3}
+      baseVolume: 0.461
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Antichambres Dark
+      clip: {fileID: 8300000, guid: 432716dea02074ce9a83f1a25545f786, type: 3}
+      baseVolume: 0.688
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 1
+        minLevel: 3
+        maxLevel: 3
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Antichambres Wild
+      clip: {fileID: 8300000, guid: e6ca6d39741cd4e35b7906bcb8c8e921, type: 3}
+      baseVolume: 0.407
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 1
+        minLevel: 2
+        maxLevel: 2
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Antichambres Arousal
+      clip: {fileID: 8300000, guid: 38e2a7231440c4765b168bf7ac0cf0c7, type: 3}
+      baseVolume: 0.544
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 0
+        minLevel: 2
+        maxLevel: 2
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+  - spaceId: Boss2
+    output: {fileID: 2895301104661058198, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 83
+    beatsPerBar: 4
+    barsPerLoop: 8
+    contextPreset: {fileID: 11400000, guid: 9177d79e22154c2b93f1eba244d9ce89, type: 2}
+    axes:
+    - axisId: ValencePlayer
+      levelCount: 1
+    - axisId: ValenceEnemy
+      levelCount: 1
+    - axisId: Arousal
+      levelCount: 1
+    - axisId: Tension
+      levelCount: 3
+    layers:
+    - layerId: Combat 2 base
+      clip: {fileID: 8300000, guid: 58f800d3364644c8a8edcc0dcda0bfb4, type: 3}
+      baseVolume: 0.8
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Boss2 Layer A
+      clip: {fileID: 8300000, guid: 9505257b4e1ee47269dda2dc1126f36c, type: 3}
+      baseVolume: 0.7
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 3
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 3
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Boss2 Layer B
+      clip: {fileID: 8300000, guid: c4e3b0bd433a64ea7a7a0afd9c16bbf9, type: 3}
+      baseVolume: 0.767
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 2
+        maxLevel: 3
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 2
+        maxLevel: 3
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Boss2 Layer C
+      clip: {fileID: 8300000, guid: 1a2d3024b0d0d42b69391eb784dc430f, type: 3}
+      baseVolume: 0.85
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 3
+        maxLevel: 3
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 3
+        maxLevel: 3
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Boss2 Arousal
+      clip: {fileID: 8300000, guid: a7c200f5afdb34de193d790c42843774, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 0
+        minLevel: 3
+        maxLevel: 3
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 3
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Boss2 Valence Player
+      clip: {fileID: 8300000, guid: 7c1a10028f114427bacb8f637b476adf, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 3
+        maxLevel: 3
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 3
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Boss2 Valence Enemy
+      clip: {fileID: 8300000, guid: 793bea7f710ed4bbb84e4062aa36b137, type: 3}
+      baseVolume: 0.721
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 3
+        maxLevel: 3
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 3
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Boss2 Valence Enemy Brass
+      clip: {fileID: 8300000, guid: 1e86118cb0a374c20bbceb01ee0a1f8e, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 3
+        maxLevel: 3
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 3
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+  - spaceId: Courtyard
+    output: {fileID: -6514607239289202067, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 83
+    beatsPerBar: 4
+    barsPerLoop: 8
+    contextPreset: {fileID: 11400000, guid: 427ddaa133da943f0a209542ddc3f120, type: 2}
+    axes:
+    - axisId: Valence
+      levelCount: 1
+    layers:
+    - layerId: Courtyard base
+      clip: {fileID: 8300000, guid: 556ca92236aa843b2a9eee14017304d8, type: 3}
+      baseVolume: 0.709
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 0
+        fadeInStart: 0
+        fadeInEnd: 0
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters: []
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Courtyard Layer A
+      clip: {fileID: 8300000, guid: 318300e5fd0e74318b073ce7c032bac0, type: 3}
+      baseVolume: 1
+      volumeMode: 1
+      volumeEnvelope:
+        axisId: Valence
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Courtyard Layer B
+      clip: {fileID: 8300000, guid: 07ca76d1e30a4492da374acbef2a0218, type: 3}
+      baseVolume: 1
+      volumeMode: 1
+      volumeEnvelope:
+        axisId: Valence
+        fadeInEnabled: 1
+        fadeInStart: 0.2
+        fadeInEnd: 0.6
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Courtyard Layer C
+      clip: {fileID: 8300000, guid: bb8b198a34b13499ab7bb5dc462e4d38, type: 3}
+      baseVolume: 1
+      volumeMode: 1
+      volumeEnvelope:
+        axisId: Valence
+        fadeInEnabled: 1
+        fadeInStart: 0.35
+        fadeInEnd: 0.65
+        fadeOutEnabled: 0
+        fadeOutStart: 0
+        fadeOutEnd: 0
+      axisFilters:
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+  transitions:
+  - transitionId: Seuil->Antichambres
+    fromSpaceId: Seuil
+    toSpaceId: Antichambres
+    hasTrack: 1
+    clip: {fileID: 8300000, guid: 668715fcb995c4c28876ffdc53cd5495, type: 3}
+    output: {fileID: -6660841111199082399, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 44
+    beatsPerBar: 4
+    lengthBars: 2
+    useCustomTransitionLength: 1
+    transitionLength:
+      bars: 1
+      beats: 0
+    sourceExit: 0
+    keepSourcePlaying: 1
+    keepSourceUntilEndOfTrack: 1
+    keepSourceUntil:
+      bar: 3
+      beat: 0
+    triggerMode: 1
+    variants: []
+    frequency:
+      bars: 0
+      beats: 1
+    defaultTrackStart:
+      bar: 2
+      beat: 0
+    arrivalMode: 2
+    resumeOffsetBars: 0
+    fixedArrival:
+      bar: 1
+      beat: 1
+    playTail: 1
+    tailLength:
+      bars: 2
+      beats: 0
+    tailTempo: 0
+  - transitionId: Boss2->Courtyard
+    fromSpaceId: Boss2
+    toSpaceId: Courtyard
+    hasTrack: 1
+    clip: {fileID: 8300000, guid: 97ce9699bed4841cab270e2ecae777bc, type: 3}
+    output: {fileID: -6514607239289202067, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 83
+    beatsPerBar: 4
+    lengthBars: 3
+    useCustomTransitionLength: 0
+    transitionLength:
+      bars: 7
+      beats: 0
+    sourceExit: 1
+    keepSourcePlaying: 1
+    keepSourceUntilEndOfTrack: 0
+    keepSourceUntil:
+      bar: 2
+      beat: 0
+    triggerMode: 1
+    variants: []
+    frequency:
+      bars: 0
+      beats: 1
+    defaultTrackStart:
+      bar: 0
+      beat: 0
+    arrivalMode: 2
+    resumeOffsetBars: 0
+    fixedArrival:
+      bar: 1
+      beat: 1
+    playTail: 1
+    tailLength:
+      bars: 2
+      beats: 0
+    tailTempo: 0
+  - transitionId: Antichambres->Boss2
+    fromSpaceId: Antichambres
+    toSpaceId: Boss2
+    hasTrack: 1
+    clip: {fileID: 8300000, guid: d23bf966252194f88820ebe9545ca632, type: 3}
+    output: {fileID: -2102556990357349639, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 32
+    beatsPerBar: 4
+    lengthBars: 1
+    useCustomTransitionLength: 0
+    transitionLength:
+      bars: 7
+      beats: 0
+    sourceExit: 0
+    keepSourcePlaying: 0
+    keepSourceUntilEndOfTrack: 0
+    keepSourceUntil:
+      bar: 3
+      beat: 0
+    triggerMode: 1
+    variants: []
+    frequency:
+      bars: 0
+      beats: 0
+    defaultTrackStart:
+      bar: 0
+      beat: 0
+    arrivalMode: 2
+    resumeOffsetBars: 0
+    fixedArrival:
+      bar: 1
+      beat: 1
+    playTail: 1
+    tailLength:
+      bars: 1
+      beats: 0
+    tailTempo: 0

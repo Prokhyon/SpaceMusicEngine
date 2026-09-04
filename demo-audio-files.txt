@@ -1,0 +1,69 @@
+# Stems audio de la démo, distribués dans le zip des ressources avec leurs .meta (scripts/make-demo-zip.sh).
+# Généré à partir des références (GUID) des projets de Assets/Loris/AudioEngine/Data/Demo.
+Assets/3DGamekit/Audio/Music/Antichambres/AntichambresAcid.aif
+Assets/3DGamekit/Audio/Music/Antichambres/AntichambresAntiArousal.aif
+Assets/3DGamekit/Audio/Music/Antichambres/AntichambresArousal.aif
+Assets/3DGamekit/Audio/Music/Antichambres/AntichambresBase.aif
+Assets/3DGamekit/Audio/Music/Antichambres/AntichambresDark.aif
+Assets/3DGamekit/Audio/Music/Antichambres/AntichambresLight.aif
+Assets/3DGamekit/Audio/Music/Antichambres/AntichambresTension1.aif
+Assets/3DGamekit/Audio/Music/Antichambres/AntichambresTension2.aif
+Assets/3DGamekit/Audio/Music/Antichambres/AntichambresWild.aif
+Assets/3DGamekit/Audio/Music/Boss1/Boss1BaseA.aif
+Assets/3DGamekit/Audio/Music/Boss1/Boss1EnemyValence.aif
+Assets/3DGamekit/Audio/Music/Boss1/Boss1Percussion.aif
+Assets/3DGamekit/Audio/Music/Boss1/Boss1PlayerValence.aif
+Assets/3DGamekit/Audio/Music/Boss1/Boss1Tension1.aif
+Assets/3DGamekit/Audio/Music/Boss1/Boss1Tension2.aif
+Assets/3DGamekit/Audio/Music/Boss1/Boss1Tension3.aif
+Assets/3DGamekit/Audio/Music/Boss1/Ruines #1Boss1Transition_1.aif
+Assets/3DGamekit/Audio/Music/Combat 2/Boss2Arousal.aif
+Assets/3DGamekit/Audio/Music/Combat 2/Boss2Base.aif
+Assets/3DGamekit/Audio/Music/Combat 2/Boss2LayerA.aif
+Assets/3DGamekit/Audio/Music/Combat 2/Boss2LayerB.aif
+Assets/3DGamekit/Audio/Music/Combat 2/Boss2LayerC.aif
+Assets/3DGamekit/Audio/Music/Combat 2/Boss2ValenceEnemy.aif
+Assets/3DGamekit/Audio/Music/Combat 2/Boss2ValencePlayer.aif
+Assets/3DGamekit/Audio/Music/Courtyard/CourtyardBase.aif
+Assets/3DGamekit/Audio/Music/Courtyard/CourtyardLayerA.aif
+Assets/3DGamekit/Audio/Music/Courtyard/CourtyardLayerB.aif
+Assets/3DGamekit/Audio/Music/Courtyard/CourtyardLayerC.aif
+Assets/3DGamekit/Audio/Music/Jungle/JungleBase.aif
+Assets/3DGamekit/Audio/Music/Jungle/JungleKalimbaFast.aif
+Assets/3DGamekit/Audio/Music/Jungle/JungleKalimbaSlow.aif
+Assets/3DGamekit/Audio/Music/Jungle/JungleMelody.aif
+Assets/3DGamekit/Audio/Music/Jungle/JungleTension1.aif
+Assets/3DGamekit/Audio/Music/Jungle/JungleTension2.aif
+Assets/3DGamekit/Audio/Music/Portail/PortailAccent.aif
+Assets/3DGamekit/Audio/Music/Portail/PortailArps.aif
+Assets/3DGamekit/Audio/Music/Portail/PortailBase.aif
+Assets/3DGamekit/Audio/Music/Portail/PortailChords.aif
+Assets/3DGamekit/Audio/Music/Ruines/RuinesBase.aif
+Assets/3DGamekit/Audio/Music/Ruines/RuinesBaseZen.aif
+Assets/3DGamekit/Audio/Music/Ruines/RuinesJungleTransition.aif
+Assets/3DGamekit/Audio/Music/Ruines/RuinesLayerA.aif
+Assets/3DGamekit/Audio/Music/Ruines/RuinesLayerB.aif
+Assets/3DGamekit/Audio/Music/Ruines/RuinesPercussion.aif
+Assets/3DGamekit/Audio/Music/Ruines/RuinesTension1.aif
+Assets/3DGamekit/Audio/Music/Ruines/RuinesTension2.aif
+Assets/3DGamekit/Audio/Music/Seuil/SeuilAcid.aif
+Assets/3DGamekit/Audio/Music/Seuil/SeuilArousal.aif
+Assets/3DGamekit/Audio/Music/Seuil/SeuilBase.aif
+Assets/3DGamekit/Audio/Music/Seuil/SeuilTension1.aif
+Assets/3DGamekit/Audio/Music/Seuil/SeuilTension2.aif
+Assets/3DGamekit/Audio/Music/Space1/Arousal1.aif
+Assets/3DGamekit/Audio/Music/Space1/Drums1.aif
+Assets/3DGamekit/Audio/Music/Space1/Drums2.aif
+Assets/3DGamekit/Audio/Music/Space1/Main Strings.aif
+Assets/3DGamekit/Audio/Music/Space1/Main bass.aif
+Assets/3DGamekit/Audio/Music/Space1/Main brass.aif
+Assets/3DGamekit/Audio/Music/Space1/Main chords.aif
+Assets/3DGamekit/Audio/Music/Space1/Tension1.aif
+Assets/3DGamekit/Audio/Music/Space1/Tension2.aif
+Assets/3DGamekit/Audio/Music/Space1/Tension3.aif
+Assets/3DGamekit/Audio/Music/Space1/Valence 1.aif
+Assets/3DGamekit/Audio/Music/Space1/Valence1.aif
+Assets/3DGamekit/Audio/Music/Transitions/Boss1PortailTransition.aif
+Assets/3DGamekit/Audio/Music/Transitions/Boss2CourtyardTransition.aif
+Assets/3DGamekit/Audio/Music/Transitions/RuinesBoss1TransitionC.aif
+Assets/3DGamekit/Audio/Music/Transitions/SeuilAntichambresTransitionB.aif

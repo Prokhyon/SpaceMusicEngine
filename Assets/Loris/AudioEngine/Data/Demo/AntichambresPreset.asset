@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80bac9c9cdca4fa0b53aa4eff634a11, type: 3}
+  m_Name: AntichambresPreset
+  m_EditorClassIdentifier: Loris.AudioEngine.Runtime::Loris.AudioEngine.ContextPreset
+  axisBindings:
+  - axisName: Valence
+    combinationMode: 0
+    rules:
+    - source: {fileID: 11400000, guid: 85da6b74d17a7490ea252ada38675f54, type: 2}
+      mode: 0
+      thresholds:
+      - atLeast: 0
+        result: 0
+      - atLeast: 0.33
+        result: 0.34
+      - atLeast: 0.66
+        result: 0.67
+      - atLeast: 1
+        result: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      weight: 1
+  - axisName: Arousal
+    combinationMode: 0
+    rules:
+    - source: {fileID: 11400000, guid: a47ccde61efb04ad5ac14de63b6b984d, type: 2}
+      mode: 0
+      thresholds:
+      - atLeast: 0
+        result: 0
+      - atLeast: 3
+        result: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      weight: 1
+  - axisName: Tension
+    combinationMode: 0
+    rules:
+    - source: {fileID: 11400000, guid: 755e895c9fb164e14a0fd3ae379e3e4c, type: 2}
+      mode: 0
+      thresholds:
+      - atLeast: 0
+        result: 0
+      - atLeast: 0.5
+        result: 0.5
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      weight: 1
+    - source: {fileID: 11400000, guid: 8eeba3340744b4578b92996c7bf684ef, type: 2}
+      mode: 0
+      thresholds:
+      - atLeast: 0
+        result: 0
+      - atLeast: 0.5
+        result: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      weight: 1

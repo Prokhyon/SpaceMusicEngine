@@ -1,0 +1,16 @@
+{
+  "name": "Loris.AudioEngine.Debug",
+  "rootNamespace": "Loris.AudioEngine",
+  "references": [
+    "Loris.AudioEngine.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

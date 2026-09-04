@@ -1,0 +1,12 @@
+{
+  "name": "com.loris.audioengine",
+  "version": "0.1.0",
+  "displayName": "SpaceMusicEngine",
+  "description": "Adaptive music engine with multi-axis parameter spaces for Unity.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Loris Thomas"
+  },
+  "keywords": ["audio", "music", "adaptive"],
+  "dependencies": {}
+}

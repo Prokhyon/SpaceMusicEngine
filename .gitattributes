@@ -1,0 +1,21 @@
+* text=auto
+
+# Fichiers sérialisés Unity (YAML) : fins de ligne LF
+*.unity   text eol=lf
+*.asset   text eol=lf
+*.prefab  text eol=lf
+*.mixer   text eol=lf
+*.meta    text eol=lf
+*.laproj  text eol=lf
+
+# Audio (non versionné, distribué en zip ; au cas où un fichier serait ajouté)
+*.aif   binary
+*.aiff  binary
+*.wav   binary
+*.ogg   binary
+*.mp3   binary
+
+# Binaires divers
+*.png   binary
+*.icns  binary
+*.ico   binary

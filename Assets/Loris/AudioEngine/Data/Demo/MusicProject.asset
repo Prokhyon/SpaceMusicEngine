@@ -1,0 +1,1338 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 934113e1ee00b4a65a37587d92932616, type: 3}
+  m_Name: MusicProject
+  m_EditorClassIdentifier: Loris.AudioEngine.Runtime::Loris.AudioEngine.MusicProject
+  output: {fileID: 243157628120161358, guid: 248799cb4acba48f7b3ee842a80f788c, type: 2}
+  defaultFadeInSeconds: 3
+  defaultFadeOutSeconds: 3
+  spaces:
+  - spaceId: Jungle
+    output: {fileID: -3276756414524636199, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 32
+    beatsPerBar: 4
+    barsPerLoop: 8
+    contextPreset: {fileID: 11400000, guid: c268ef64b0dcb4e67b0d932316f5528b, type: 2}
+    axes:
+    - axisId: Arousal
+      levelCount: 1
+    - axisId: Tension
+      levelCount: 2
+    layers:
+    - layerId: Jungle Base
+      clip: {fileID: 8300000, guid: 69a1aebcc89424dbe98fdad9267bb14e, type: 3}
+      baseVolume: 0.7
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Jungle Melody
+      clip: {fileID: 8300000, guid: 2a12d332900f54bb1aab1be63ddc9d99, type: 3}
+      baseVolume: 0.704
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Jungle Tension 1
+      clip: {fileID: 8300000, guid: 01e0461ae91eb4397a407604e3c8aa88, type: 3}
+      baseVolume: 0.97
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Jungle Tension 2
+      clip: {fileID: 8300000, guid: 4fdb0da4341074049a2a2cad53bc3a2e, type: 3}
+      baseVolume: 0.707
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Jungle Kalimba Slow
+      clip: {fileID: 8300000, guid: b1bf2a6bc4d594c5b8f8352ea0bc5366, type: 3}
+      baseVolume: 0.67
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 1
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Jungle Kalimba Fast
+      clip: {fileID: 8300000, guid: db562168639194307b8005e81e6710e1, type: 3}
+      baseVolume: 0.67
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+  - spaceId: Ruines
+    output: {fileID: -8568726574492098446, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 32
+    beatsPerBar: 4
+    barsPerLoop: 8
+    contextPreset: {fileID: 11400000, guid: c7b2ad6927dff4302a6eedf1b649b6c5, type: 2}
+    axes:
+    - axisId: Valence
+      levelCount: 2
+    - axisId: Arousal
+      levelCount: 1
+    - axisId: Tension
+      levelCount: 2
+    layers:
+    - layerId: Ruines Base
+      clip: {fileID: 8300000, guid: 0f0c96a3e23264baab8195b1a3bc35e4, type: 3}
+      baseVolume: 0.4
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Ruines Base Zen
+      clip: {fileID: 8300000, guid: 9b65728d85fdd43a0a893e258aeb7288, type: 3}
+      baseVolume: 0.4
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Ruines Percussion
+      clip: {fileID: 8300000, guid: 3953b5bd126444c4ba2ee4ebf4f14d08, type: 3}
+      baseVolume: 0.4
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Ruines Tension 1
+      clip: {fileID: 8300000, guid: 720953bbed8334e39900e55319610d56, type: 3}
+      baseVolume: 0.6
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Ruines Tension 2
+      clip: {fileID: 8300000, guid: efc0527494d2549f89885f03f2a26d1f, type: 3}
+      baseVolume: 0.407
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Ruines Valence
+      clip: {fileID: 8300000, guid: b09f6d496a21d462fbe74d8b43350086, type: 3}
+      baseVolume: 0.9
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 1
+        minLevel: 2
+        maxLevel: 2
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Ruines Valence B
+      clip: {fileID: 8300000, guid: da970ba595989416db2f94a295d3ffff, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 2
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+  - spaceId: Boss
+    output: {fileID: -5536270175391454217, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 83
+    beatsPerBar: 4
+    barsPerLoop: 8
+    contextPreset: {fileID: 11400000, guid: 9177d79e22154c2b93f1eba244d9ce89, type: 2}
+    axes:
+    - axisId: ValencePlayer
+      levelCount: 1
+    - axisId: ValenceEnemy
+      levelCount: 1
+    - axisId: Arousal
+      levelCount: 1
+    - axisId: Tension
+      levelCount: 3
+    layers:
+    - layerId: CombatBaseA
+      clip: {fileID: 8300000, guid: 8f841e979ea80463ab9af22f9ccf3690, type: 3}
+      baseVolume: 0.8
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: CombatBaseB
+      clip: {fileID: 8300000, guid: 54c58412f5fbd40b2b134066276092e4, type: 3}
+      baseVolume: 0.7
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 2
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 3
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: CombatPercussion
+      clip: {fileID: 8300000, guid: 9c958858d62524a42abadd8b40020a47, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 3
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: CombatPlus
+      clip: {fileID: 8300000, guid: ac34fea41992e47d2a39d033cac6e584, type: 3}
+      baseVolume: 0.7
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 2
+        maxLevel: 3
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: CombatVoice
+      clip: {fileID: 8300000, guid: 3bf03f972a93c41e9b70f5d91df155ea, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 3
+        maxLevel: 3
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: CombatValencePlayer
+      clip: {fileID: 8300000, guid: 5e386c20d2b064a90affcfaa3d2a2422, type: 3}
+      baseVolume: 0.7
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 3
+        maxLevel: 3
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: CombatValenceEnnemy
+      clip: {fileID: 8300000, guid: 1e86118cb0a374c20bbceb01ee0a1f8e, type: 3}
+      baseVolume: 0.65
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 3
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: CombatValenceEnnemyB
+      clip: {fileID: 8300000, guid: 793bea7f710ed4bbb84e4062aa36b137, type: 3}
+      baseVolume: 0.4
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 3
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+  - spaceId: Portail
+    output: {fileID: -562942882741883999, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 83
+    beatsPerBar: 4
+    barsPerLoop: 8
+    contextPreset: {fileID: 11400000, guid: 427ddaa133da943f0a209542ddc3f120, type: 2}
+    axes:
+    - axisId: Valence
+      levelCount: 1
+    layers:
+    - layerId: Portail Base
+      clip: {fileID: 8300000, guid: 6eb624204f40b407cac219e3ee1b8945, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Portail Accent
+      clip: {fileID: 8300000, guid: c9e5f48cf16454bdaa0a2e1eb6a78c5a, type: 3}
+      baseVolume: 1
+      volumeMode: 1
+      volumeEnvelope:
+        axisId: Valence
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.4
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Portail Chords
+      clip: {fileID: 8300000, guid: ae9ac771c6fb2410281ea85c0e15385c, type: 3}
+      baseVolume: 0.8
+      volumeMode: 1
+      volumeEnvelope:
+        axisId: Valence
+        fadeInEnabled: 1
+        fadeInStart: 0.2
+        fadeInEnd: 0.6
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Portail Arps
+      clip: {fileID: 8300000, guid: e5a8185c7758042089b062ea2d19d553, type: 3}
+      baseVolume: 0.9
+      volumeMode: 1
+      volumeEnvelope:
+        axisId: Valence
+        fadeInEnabled: 1
+        fadeInStart: 0.35
+        fadeInEnd: 0.7
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+  transitions:
+  - transitionId: Jungle->Ruines
+    fromSpaceId: Jungle
+    toSpaceId: Ruines
+    hasTrack: 1
+    clip: {fileID: 8300000, guid: 838ce3211edd1471890896367b7ea9b9, type: 3}
+    output: {fileID: -3276756414524636199, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 32
+    beatsPerBar: 4
+    lengthBars: 16
+    useCustomTransitionLength: 1
+    transitionLength:
+      bars: 1
+      beats: 0
+    sourceExit: 0
+    keepSourcePlaying: 1
+    keepSourceUntilEndOfTrack: 1
+    keepSourceUntil:
+      bar: 1
+      beat: 1
+    triggerMode: 0
+    variants:
+    - departures:
+      - bar: 1
+        beat: 1
+      trackStart:
+        bar: 1
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    - departures:
+      - bar: 2
+        beat: 1
+      trackStart:
+        bar: 3
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    - departures:
+      - bar: 3
+        beat: 1
+      trackStart:
+        bar: 5
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    - departures:
+      - bar: 4
+        beat: 1
+      trackStart:
+        bar: 7
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    - departures:
+      - bar: 5
+        beat: 1
+      trackStart:
+        bar: 9
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    - departures:
+      - bar: 6
+        beat: 1
+      trackStart:
+        bar: 11
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    - departures:
+      - bar: 7
+        beat: 1
+      trackStart:
+        bar: 13
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    - departures:
+      - bar: 8
+        beat: 1
+      trackStart:
+        bar: 15
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    frequency:
+      bars: 1
+      beats: 0
+    defaultTrackStart:
+      bar: 1
+      beat: 1
+    arrivalMode: 2
+    resumeOffsetBars: 0
+    fixedArrival:
+      bar: 1
+      beat: 1
+    playTail: 1
+    tailLength:
+      bars: 1
+      beats: 0
+    tailTempo: 0
+  - transitionId: Ruines->Jungle
+    fromSpaceId: Ruines
+    toSpaceId: Jungle
+    hasTrack: 0
+    clip: {fileID: 8300000, guid: a9b598045823649a0a4bc7da59b0977b, type: 3}
+    output: {fileID: 0}
+    bpm: 65
+    beatsPerBar: 4
+    lengthBars: 2
+    useCustomTransitionLength: 0
+    transitionLength:
+      bars: 1
+      beats: 0
+    sourceExit: 0
+    keepSourcePlaying: 0
+    keepSourceUntilEndOfTrack: 0
+    keepSourceUntil:
+      bar: 1
+      beat: 1
+    triggerMode: 1
+    variants:
+    - departures:
+      - bar: 1
+        beat: 1
+      - bar: 3
+        beat: 1
+      - bar: 5
+        beat: 1
+      - bar: 7
+        beat: 1
+      trackStart:
+        bar: 1
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    frequency:
+      bars: 1
+      beats: 0
+    defaultTrackStart:
+      bar: 1
+      beat: 1
+    arrivalMode: 2
+    resumeOffsetBars: 0
+    fixedArrival:
+      bar: 1
+      beat: 1
+    playTail: 0
+    tailLength:
+      bars: 0
+      beats: 0
+    tailTempo: 0
+  - transitionId: Ruines->Boss
+    fromSpaceId: Ruines
+    toSpaceId: Boss1
+    hasTrack: 1
+    clip: {fileID: 8300000, guid: 425a5ad02cf894d22935c47ba8d37e3d, type: 3}
+    output: {fileID: -2102556990357349639, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 32
+    beatsPerBar: 4
+    lengthBars: 12
+    useCustomTransitionLength: 1
+    transitionLength:
+      bars: 1
+      beats: 2
+    sourceExit: 0
+    keepSourcePlaying: 0
+    keepSourceUntilEndOfTrack: 0
+    keepSourceUntil:
+      bar: 1
+      beat: 1
+    triggerMode: 0
+    variants:
+    - departures:
+      - bar: 1
+        beat: 1
+      - bar: 1
+        beat: 2
+      - bar: 1
+        beat: 3
+      - bar: 1
+        beat: 4
+      trackStart:
+        bar: 1
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    - departures:
+      - bar: 2
+        beat: 1
+      - bar: 2
+        beat: 2
+      - bar: 2
+        beat: 3
+      - bar: 2
+        beat: 4
+      trackStart:
+        bar: 2
+        beat: 3
+      arrival:
+        bar: 1
+        beat: 1
+    - departures:
+      - bar: 3
+        beat: 1
+      - bar: 3
+        beat: 2
+      - bar: 3
+        beat: 3
+      - bar: 3
+        beat: 4
+      trackStart:
+        bar: 4
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    - departures:
+      - bar: 4
+        beat: 1
+      - bar: 4
+        beat: 2
+      - bar: 4
+        beat: 3
+      - bar: 4
+        beat: 4
+      trackStart:
+        bar: 5
+        beat: 3
+      arrival:
+        bar: 1
+        beat: 1
+    - departures:
+      - bar: 5
+        beat: 1
+      - bar: 5
+        beat: 2
+      - bar: 5
+        beat: 3
+      - bar: 5
+        beat: 4
+      trackStart:
+        bar: 7
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    - departures:
+      - bar: 6
+        beat: 1
+      - bar: 6
+        beat: 2
+      - bar: 6
+        beat: 3
+      - bar: 6
+        beat: 4
+      trackStart:
+        bar: 8
+        beat: 3
+      arrival:
+        bar: 1
+        beat: 1
+    - departures:
+      - bar: 7
+        beat: 1
+      - bar: 7
+        beat: 2
+      - bar: 7
+        beat: 3
+      - bar: 7
+        beat: 4
+      trackStart:
+        bar: 10
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    - departures:
+      - bar: 8
+        beat: 1
+      - bar: 8
+        beat: 2
+      - bar: 8
+        beat: 3
+      - bar: 8
+        beat: 4
+      trackStart:
+        bar: 11
+        beat: 3
+      arrival:
+        bar: 1
+        beat: 1
+    frequency:
+      bars: 1
+      beats: 0
+    defaultTrackStart:
+      bar: 1
+      beat: 1
+    arrivalMode: 2
+    resumeOffsetBars: 0
+    fixedArrival:
+      bar: 1
+      beat: 1
+    playTail: 0
+    tailLength:
+      bars: 0
+      beats: 0
+    tailTempo: 0
+  - transitionId: Boss->Ruines
+    fromSpaceId: Boss
+    toSpaceId: Ruines
+    hasTrack: 0
+    clip: {fileID: 8300000, guid: a9b598045823649a0a4bc7da59b0977b, type: 3}
+    output: {fileID: 0}
+    bpm: 65
+    beatsPerBar: 4
+    lengthBars: 2
+    useCustomTransitionLength: 0
+    transitionLength:
+      bars: 1
+      beats: 0
+    sourceExit: 0
+    keepSourcePlaying: 0
+    keepSourceUntilEndOfTrack: 0
+    keepSourceUntil:
+      bar: 1
+      beat: 1
+    triggerMode: 1
+    variants:
+    - departures:
+      - bar: 1
+        beat: 1
+      - bar: 3
+        beat: 1
+      - bar: 5
+        beat: 1
+      - bar: 7
+        beat: 1
+      trackStart:
+        bar: 1
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    frequency:
+      bars: 1
+      beats: 0
+    defaultTrackStart:
+      bar: 1
+      beat: 1
+    arrivalMode: 2
+    resumeOffsetBars: 0
+    fixedArrival:
+      bar: 1
+      beat: 1
+    playTail: 0
+    tailLength:
+      bars: 0
+      beats: 0
+    tailTempo: 0
+  - transitionId: Boss->Portail
+    fromSpaceId: Boss
+    toSpaceId: Portail
+    hasTrack: 1
+    clip: {fileID: 8300000, guid: b5d2487c33a45471896e5d9eecb098b0, type: 3}
+    output: {fileID: -562942882741883999, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 83
+    beatsPerBar: 4
+    lengthBars: 3
+    useCustomTransitionLength: 0
+    transitionLength:
+      bars: 7
+      beats: 0
+    sourceExit: 1
+    keepSourcePlaying: 1
+    keepSourceUntilEndOfTrack: 0
+    keepSourceUntil:
+      bar: 2
+      beat: 1
+    triggerMode: 1
+    variants:
+    - departures:
+      - bar: 1
+        beat: 1
+      - bar: 3
+        beat: 1
+      - bar: 5
+        beat: 1
+      - bar: 7
+        beat: 1
+      trackStart:
+        bar: 1
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    frequency:
+      bars: 0
+      beats: 1
+    defaultTrackStart:
+      bar: 1
+      beat: 1
+    arrivalMode: 2
+    resumeOffsetBars: 0
+    fixedArrival:
+      bar: 1
+      beat: 1
+    playTail: 1
+    tailLength:
+      bars: 3
+      beats: 0
+    tailTempo: 0
+  - transitionId: Portail->Ruines
+    fromSpaceId: Portail
+    toSpaceId: Ruines
+    hasTrack: 0
+    clip: {fileID: 8300000, guid: a9b598045823649a0a4bc7da59b0977b, type: 3}
+    output: {fileID: 0}
+    bpm: 65
+    beatsPerBar: 4
+    lengthBars: 2
+    useCustomTransitionLength: 0
+    transitionLength:
+      bars: 1
+      beats: 0
+    sourceExit: 0
+    keepSourcePlaying: 0
+    keepSourceUntilEndOfTrack: 0
+    keepSourceUntil:
+      bar: 1
+      beat: 1
+    triggerMode: 1
+    variants:
+    - departures:
+      - bar: 1
+        beat: 1
+      - bar: 3
+        beat: 1
+      - bar: 5
+        beat: 1
+      - bar: 7
+        beat: 1
+      trackStart:
+        bar: 1
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    frequency:
+      bars: 1
+      beats: 0
+    defaultTrackStart:
+      bar: 1
+      beat: 1
+    arrivalMode: 2
+    resumeOffsetBars: 0
+    fixedArrival:
+      bar: 1
+      beat: 1
+    playTail: 0
+    tailLength:
+      bars: 0
+      beats: 0
+    tailTempo: 0
+  - transitionId: Ruines->Portail
+    fromSpaceId: Ruines
+    toSpaceId: Portail
+    hasTrack: 0
+    clip: {fileID: 8300000, guid: a9b598045823649a0a4bc7da59b0977b, type: 3}
+    output: {fileID: 0}
+    bpm: 65
+    beatsPerBar: 4
+    lengthBars: 2
+    useCustomTransitionLength: 0
+    transitionLength:
+      bars: 1
+      beats: 0
+    sourceExit: 1
+    keepSourcePlaying: 0
+    keepSourceUntilEndOfTrack: 0
+    keepSourceUntil:
+      bar: 1
+      beat: 1
+    triggerMode: 1
+    variants:
+    - departures:
+      - bar: 1
+        beat: 1
+      - bar: 3
+        beat: 1
+      - bar: 5
+        beat: 1
+      - bar: 7
+        beat: 1
+      trackStart:
+        bar: 1
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    frequency:
+      bars: 1
+      beats: 0
+    defaultTrackStart:
+      bar: 1
+      beat: 1
+    arrivalMode: 2
+    resumeOffsetBars: 0
+    fixedArrival:
+      bar: 1
+      beat: 1
+    playTail: 0
+    tailLength:
+      bars: 0
+      beats: 0
+    tailTempo: 0
+  - transitionId: Ruines->BossC
+    fromSpaceId: Ruines
+    toSpaceId: Boss
+    hasTrack: 1
+    clip: {fileID: 8300000, guid: d23bf966252194f88820ebe9545ca632, type: 3}
+    output: {fileID: -2102556990357349639, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 32
+    beatsPerBar: 4
+    lengthBars: 1
+    useCustomTransitionLength: 0
+    transitionLength:
+      bars: 1
+      beats: 0
+    sourceExit: 0
+    keepSourcePlaying: 1
+    keepSourceUntilEndOfTrack: 0
+    keepSourceUntil:
+      bar: 1
+      beat: 1
+    triggerMode: 1
+    variants:
+    - departures:
+      - bar: 1
+        beat: 1
+      - bar: 3
+        beat: 1
+      - bar: 5
+        beat: 1
+      - bar: 7
+        beat: 1
+      trackStart:
+        bar: 1
+        beat: 1
+      arrival:
+        bar: 1
+        beat: 1
+    frequency:
+      bars: 0
+      beats: 0
+    defaultTrackStart:
+      bar: 1
+      beat: 1
+    arrivalMode: 2
+    resumeOffsetBars: 0
+    fixedArrival:
+      bar: 1
+      beat: 1
+    playTail: 1
+    tailLength:
+      bars: 1
+      beats: 0
+    tailTempo: 0

@@ -1,0 +1,89 @@
+# ---------------------------------------------------------------------------
+# Ce dépôt reproduit la structure d'un projet Unity (Assets/, Packages/),
+# mais ne versionne QUE ce qui concerne le moteur de musique adaptative.
+# Principe : tout est ignoré par défaut, puis on ré-autorise explicitement
+# (liste blanche). Le dossier peut ainsi être superposé au projet complet
+# (3D Game Kit, ~20 Go) sans risquer d'y embarquer le kit.
+# ---------------------------------------------------------------------------
+
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE*
+!/CHANGELOG*
+!/Docs/
+!/scripts/
+!/demo-audio-files.txt
+
+# --- Package Unity du moteur ------------------------------------------------
+!/Packages/
+/Packages/*
+!/Packages/com.loris.audioengine/
+# Dépendances du projet de démo (Unity 6), à reprendre telles quelles
+!/Packages/manifest.json
+
+# --- Outil d'authoring (Tauri + React) -------------------------------------
+# (son propre .gitignore exclut node_modules, dist, target, gen/schemas)
+!/AuthoringTool/
+/AuthoringTool/.claude/
+/AuthoringTool/projects/
+
+# --- Données de démo du moteur ----------------------------------------------
+!/Assets/
+/Assets/*
+!/Assets/Loris/
+!/Assets/Loris.meta
+
+# --- Liaison jeu-moteur de la démo ------------------------------------------
+# Écriture des paramètres de jeu, combat scripté, UI de debug
+!/Assets/Audio/
+!/Assets/Audio.meta
+# dossier vide
+/Assets/Audio/Editor.meta
+
+# --- Modifications apportées au 3D Game Kit ---------------------------------
+# Seuls les fichiers créés ou modifiés pour la démo sont suivis ; ils se
+# superposent à un 3D Game Kit neuf (voir README).
+!/Assets/3DGamekit/
+/Assets/3DGamekit/*
+
+# Scripts : module d'expérimentation + scripts du kit modifiés
+!/Assets/3DGamekit/Scripts/
+/Assets/3DGamekit/Scripts/**
+!/Assets/3DGamekit/Scripts/**/
+!/Assets/3DGamekit/Scripts/Experiment.meta
+!/Assets/3DGamekit/Scripts/Experiment/**
+!/Assets/3DGamekit/Scripts/Editor/LightingRebake.cs*
+!/Assets/3DGamekit/Scripts/Game/Enemies/EnemyController.cs*
+!/Assets/3DGamekit/Scripts/Game/Enemies/Grenadier/GrenadierGrenade.cs*
+!/Assets/3DGamekit/Scripts/Game/Helpers/RigidbodyDelayedForce.cs*
+!/Assets/3DGamekit/Scripts/Game/Player/PlayerController.cs*
+!/Assets/3DGamekit/Scripts/Game/Player/PlayerInput.cs*
+!/Assets/3DGamekit/Scripts/Game/UI/StartUI.cs*
+
+# Questionnaires de l'expérimentation
+!/Assets/3DGamekit/Data/
+!/Assets/3DGamekit/Data.meta
+
+# Audio : seul le mixer de sortie est suivi. Les stems sont dans le zip des
+# ressources (scripts/make-demo-zip.sh), avec leurs .meta : Unity supprime les
+# .meta orphelins à l'import.
+!/Assets/3DGamekit/Audio/
+/Assets/3DGamekit/Audio/*
+!/Assets/3DGamekit/Audio/Mixers/
+!/Assets/3DGamekit/Audio/Mixers.meta
+
+# Les scènes (Assets/3DGamekit/Scenes, ~1 Go avec l'éclairage précalculé) sont
+# elles aussi dans le zip des ressources.
+
+# --- Générés / locaux (partout) ---------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vs/
+*.csproj
+*.sln
+*.userprefs
+node_modules/

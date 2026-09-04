@@ -1,0 +1,997 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 934113e1ee00b4a65a37587d92932616, type: 3}
+  m_Name: Level1StaticMusicProject
+  m_EditorClassIdentifier: Loris.AudioEngine.Runtime::Loris.AudioEngine.MusicProject
+  output: {fileID: 243157628120161358, guid: 248799cb4acba48f7b3ee842a80f788c, type: 2}
+  defaultFadeInSeconds: 3
+  defaultFadeOutSeconds: 3
+  spaces:
+  - spaceId: Exploration
+    output: {fileID: 0}
+    bpm: 65
+    beatsPerBar: 4
+    barsPerLoop: 8
+    contextPreset: {fileID: 0}
+    axes:
+    - axisId: Valence
+      levelCount: 1
+    - axisId: Arousal
+      levelCount: 1
+    - axisId: Tension
+      levelCount: 2
+    layers:
+    - layerId: Main chords
+      clip: {fileID: 8300000, guid: da9dfa23adf52401a8d22b2f7a787023, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters: []
+      entryQuantization: 0
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Main Strings
+      clip: {fileID: 8300000, guid: da27b9ffa6dc045808ef84a92fb7a12d, type: 3}
+      baseVolume: 0.8
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters: []
+      entryQuantization: 0
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Main Brass
+      clip: {fileID: 8300000, guid: 5ab6d898a349749029b11ee824da1bda, type: 3}
+      baseVolume: 0.8
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters: []
+      entryQuantization: 0
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Main Bass
+      clip: {fileID: 8300000, guid: 1478bdab7cb694b47a95ce5a0cf8807a, type: 3}
+      baseVolume: 0.8
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters: []
+      entryQuantization: 0
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Arousal1
+      clip: {fileID: 8300000, guid: 9700a202988a042a8be6ea5a29bdf587, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      entryQuantization: 1
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Tension1_Drums
+      clip: {fileID: 8300000, guid: 3ec395f0410074320b677ed9adf0fa41, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      entryQuantization: 1
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Tension2_Drums
+      clip: {fileID: 8300000, guid: a9b598045823649a0a4bc7da59b0977b, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 2
+        maxLevel: 2
+      - enabled: 1
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Tension1_chords
+      clip: {fileID: 8300000, guid: 9f1e96f9317214b6ca7150a022f5b8ae, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      entryQuantization: 2
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Tension2_chords
+      clip: {fileID: 8300000, guid: 6b0fb7ebf8a994fa49709da36bc21c9b, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 2
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Tension3_riser
+      clip: {fileID: 8300000, guid: 66e0b4f57caae4696b323421f2331b01, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 3
+        maxLevel: 3
+      entryQuantization: 2
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Valence1_effect
+      clip: {fileID: 8300000, guid: 778600416eb4d49f6a7bbe420cc85186, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Valence1_chords
+      clip: {fileID: 8300000, guid: a5393a48c89fe4603abf50ff76ccdd86, type: 3}
+      baseVolume: 0.8
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+  - spaceId: Combat
+    output: {fileID: 0}
+    bpm: 65
+    beatsPerBar: 4
+    barsPerLoop: 8
+    contextPreset: {fileID: 0}
+    axes: []
+    layers:
+    - layerId: Combat Bass
+      clip: {fileID: 8300000, guid: 1478bdab7cb694b47a95ce5a0cf8807a, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters: []
+      entryQuantization: 0
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Combat Drums
+      clip: {fileID: 8300000, guid: 3ec395f0410074320b677ed9adf0fa41, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters: []
+      entryQuantization: 0
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+  - spaceId: Jungle
+    output: {fileID: -3276756414524636199, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 32
+    beatsPerBar: 4
+    barsPerLoop: 8
+    contextPreset: {fileID: 0}
+    axes:
+    - axisId: Valence
+      levelCount: 1
+    - axisId: Arousal
+      levelCount: 1
+    - axisId: Tension
+      levelCount: 2
+    layers:
+    - layerId: Jungle Base
+      clip: {fileID: 8300000, guid: 69a1aebcc89424dbe98fdad9267bb14e, type: 3}
+      baseVolume: 0.7
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Jungle Melody
+      clip: {fileID: 8300000, guid: 2a12d332900f54bb1aab1be63ddc9d99, type: 3}
+      baseVolume: 0.704
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Jungle Tension 1
+      clip: {fileID: 8300000, guid: 01e0461ae91eb4397a407604e3c8aa88, type: 3}
+      baseVolume: 0
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Jungle Tension 2
+      clip: {fileID: 8300000, guid: 4fdb0da4341074049a2a2cad53bc3a2e, type: 3}
+      baseVolume: 0
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Jungle Kalimba Slow
+      clip: {fileID: 8300000, guid: b1bf2a6bc4d594c5b8f8352ea0bc5366, type: 3}
+      baseVolume: 0
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Jungle Kalimba Fast
+      clip: {fileID: 8300000, guid: db562168639194307b8005e81e6710e1, type: 3}
+      baseVolume: 0.67
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+  - spaceId: Ruines
+    output: {fileID: -8568726574492098446, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 32
+    beatsPerBar: 4
+    barsPerLoop: 8
+    contextPreset: {fileID: 0}
+    axes:
+    - axisId: Valence
+      levelCount: 2
+    - axisId: Arousal
+      levelCount: 1
+    - axisId: Tension
+      levelCount: 2
+    layers:
+    - layerId: Ruines Base
+      clip: {fileID: 8300000, guid: 0f0c96a3e23264baab8195b1a3bc35e4, type: 3}
+      baseVolume: 0.7
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Ruines Base Zen
+      clip: {fileID: 8300000, guid: 9b65728d85fdd43a0a893e258aeb7288, type: 3}
+      baseVolume: 0.7
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Ruines Percussion
+      clip: {fileID: 8300000, guid: 3953b5bd126444c4ba2ee4ebf4f14d08, type: 3}
+      baseVolume: 0.7
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 1
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Ruines Tension 1
+      clip: {fileID: 8300000, guid: 720953bbed8334e39900e55319610d56, type: 3}
+      baseVolume: 0
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 2
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Ruines Tension 2
+      clip: {fileID: 8300000, guid: efc0527494d2549f89885f03f2a26d1f, type: 3}
+      baseVolume: 0
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 1
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Ruines Valence
+      clip: {fileID: 8300000, guid: b09f6d496a21d462fbe74d8b43350086, type: 3}
+      baseVolume: 0
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 1
+        minLevel: 1
+        maxLevel: 2
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Ruines Valence B
+      clip: {fileID: 8300000, guid: da970ba595989416db2f94a295d3ffff, type: 3}
+      baseVolume: 0
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 1
+        minLevel: 2
+        maxLevel: 2
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 2
+        maxLevel: 2
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+  - spaceId: Boss
+    output: {fileID: -5536270175391454217, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 83
+    beatsPerBar: 4
+    barsPerLoop: 8
+    contextPreset: {fileID: 0}
+    axes:
+    - axisId: ValencePlayer
+      levelCount: 1
+    - axisId: ValenceEnemy
+      levelCount: 1
+    - axisId: Arousal
+      levelCount: 1
+    - axisId: Tension
+      levelCount: 3
+    layers:
+    - layerId: CombatBaseA
+      clip: {fileID: 8300000, guid: 8f841e979ea80463ab9af22f9ccf3690, type: 3}
+      baseVolume: 0.7
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: CombatBaseB
+      clip: {fileID: 8300000, guid: 54c58412f5fbd40b2b134066276092e4, type: 3}
+      baseVolume: 0.7
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 2
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 3
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: CombatPercussion
+      clip: {fileID: 8300000, guid: 9c958858d62524a42abadd8b40020a47, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: CombatPlus
+      clip: {fileID: 8300000, guid: ac34fea41992e47d2a39d033cac6e584, type: 3}
+      baseVolume: 0.7
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 1
+        maxLevel: 1
+      - enabled: 0
+        minLevel: 2
+        maxLevel: 3
+      entryQuantization: 2
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+  - spaceId: Portail
+    output: {fileID: -562942882741883999, guid: 248799cb4acba48f7b3ee842a80f788c,
+      type: 2}
+    bpm: 83
+    beatsPerBar: 4
+    barsPerLoop: 8
+    contextPreset: {fileID: 11400000, guid: 427ddaa133da943f0a209542ddc3f120, type: 2}
+    axes:
+    - axisId: Valence
+      levelCount: 1
+    - axisId: Arousal
+      levelCount: 1
+    - axisId: Tension
+      levelCount: 3
+    layers:
+    - layerId: Portail Base
+      clip: {fileID: 8300000, guid: 6eb624204f40b407cac219e3ee1b8945, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: 
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Portail Accent
+      clip: {fileID: 8300000, guid: c9e5f48cf16454bdaa0a2e1eb6a78c5a, type: 3}
+      baseVolume: 1
+      volumeMode: 0
+      volumeEnvelope:
+        axisId: Valence
+        fadeInEnabled: 1
+        fadeInStart: 0
+        fadeInEnd: 0.5
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 2
+      loopTailEnabled: 0
+      loopTailLength:
+        bars: 0
+        beats: 0
+    - layerId: Portail Chords
+      clip: {fileID: 8300000, guid: ae9ac771c6fb2410281ea85c0e15385c, type: 3}
+      baseVolume: 0.8
+      volumeMode: 1
+      volumeEnvelope:
+        axisId: Valence
+        fadeInEnabled: 1
+        fadeInStart: 0.2
+        fadeInEnd: 0.7
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+    - layerId: Portail Arps
+      clip: {fileID: 8300000, guid: e5a8185c7758042089b062ea2d19d553, type: 3}
+      baseVolume: 0.9
+      volumeMode: 1
+      volumeEnvelope:
+        axisId: Valence
+        fadeInEnabled: 1
+        fadeInStart: 0.4
+        fadeInEnd: 1
+        fadeOutEnabled: 0
+        fadeOutStart: 0.5
+        fadeOutEnd: 1
+      axisFilters:
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      - enabled: 0
+        minLevel: 0
+        maxLevel: 0
+      entryQuantization: 0
+      loopTailEnabled: 1
+      loopTailLength:
+        bars: 1
+        beats: 0
+  transitions: []

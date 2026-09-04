@@ -1,0 +1,1589 @@
+{
+  "formatVersion": 3,
+  "name": "Level1StaticMusicProject",
+  "outputGuid": "248799cb4acba48f7b3ee842a80f788c",
+  "outputFileId": "243157628120161358",
+  "defaultFadeInSeconds": 3,
+  "defaultFadeOutSeconds": 3,
+  "spaces": [
+    {
+      "spaceId": "Exploration",
+      "name": "Exploration",
+      "bpm": 65,
+      "beatsPerBar": 4,
+      "barsPerLoop": 8,
+      "axes": [
+        {
+          "axisId": "Valence",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Arousal",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Tension",
+          "levelCount": 2
+        }
+      ],
+      "layers": [
+        {
+          "layerId": "Main chords",
+          "clipGuid": "da9dfa23adf52401a8d22b2f7a787023",
+          "clipPath": "3DGamekit/Audio/Music/Space1/Main chords.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Main Strings",
+          "clipGuid": "da27b9ffa6dc045808ef84a92fb7a12d",
+          "clipPath": "3DGamekit/Audio/Music/Space1/Main Strings.aif",
+          "baseVolume": 0.8,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Main Brass",
+          "clipGuid": "5ab6d898a349749029b11ee824da1bda",
+          "clipPath": "3DGamekit/Audio/Music/Space1/Main brass.aif",
+          "baseVolume": 0.8,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Main Bass",
+          "clipGuid": "1478bdab7cb694b47a95ce5a0cf8807a",
+          "clipPath": "3DGamekit/Audio/Music/Space1/Main bass.aif",
+          "baseVolume": 0.8,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Arousal1",
+          "clipGuid": "9700a202988a042a8be6ea5a29bdf587",
+          "clipPath": "3DGamekit/Audio/Music/Space1/Arousal1.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Tension1_Drums",
+          "clipGuid": "3ec395f0410074320b677ed9adf0fa41",
+          "clipPath": "3DGamekit/Audio/Music/Space1/Drums1.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Tension2_Drums",
+          "clipGuid": "a9b598045823649a0a4bc7da59b0977b",
+          "clipPath": "3DGamekit/Audio/Music/Space1/Drums2.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": true,
+              "minLevel": 2,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Tension1_chords",
+          "clipGuid": "9f1e96f9317214b6ca7150a022f5b8ae",
+          "clipPath": "3DGamekit/Audio/Music/Space1/Tension1.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Tension2_chords",
+          "clipGuid": "6b0fb7ebf8a994fa49709da36bc21c9b",
+          "clipPath": "3DGamekit/Audio/Music/Space1/Tension2.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 2,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Tension3_riser",
+          "clipGuid": "66e0b4f57caae4696b323421f2331b01",
+          "clipPath": "3DGamekit/Audio/Music/Space1/Tension3.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 2,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Valence1_effect",
+          "clipGuid": "778600416eb4d49f6a7bbe420cc85186",
+          "clipPath": "3DGamekit/Audio/Music/Space1/Valence 1.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Valence1_chords",
+          "clipGuid": "a5393a48c89fe4603abf50ff76ccdd86",
+          "clipPath": "3DGamekit/Audio/Music/Space1/Valence1.aif",
+          "baseVolume": 0.8,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        }
+      ]
+    },
+    {
+      "spaceId": "Combat",
+      "name": "Combat",
+      "bpm": 65,
+      "beatsPerBar": 4,
+      "barsPerLoop": 8,
+      "axes": [],
+      "layers": [
+        {
+          "layerId": "Combat Bass",
+          "clipGuid": "1478bdab7cb694b47a95ce5a0cf8807a",
+          "clipPath": "3DGamekit/Audio/Music/Space1/Main bass.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Combat Drums",
+          "clipGuid": "3ec395f0410074320b677ed9adf0fa41",
+          "clipPath": "3DGamekit/Audio/Music/Space1/Drums1.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        }
+      ]
+    },
+    {
+      "spaceId": "Jungle",
+      "name": "Jungle",
+      "bpm": 32,
+      "beatsPerBar": 4,
+      "barsPerLoop": 8,
+      "axes": [
+        {
+          "axisId": "Valence",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Arousal",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Tension",
+          "levelCount": 2
+        }
+      ],
+      "layers": [
+        {
+          "layerId": "Jungle Base",
+          "clipGuid": "69a1aebcc89424dbe98fdad9267bb14e",
+          "clipPath": "3DGamekit/Audio/Music/Jungle/JungleBase.aif",
+          "baseVolume": 0.7,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Jungle Melody",
+          "clipGuid": "2a12d332900f54bb1aab1be63ddc9d99",
+          "clipPath": "3DGamekit/Audio/Music/Jungle/JungleMelody.aif",
+          "baseVolume": 0.704,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Jungle Tension 1",
+          "clipGuid": "01e0461ae91eb4397a407604e3c8aa88",
+          "clipPath": "3DGamekit/Audio/Music/Jungle/JungleTension1.aif",
+          "baseVolume": 0,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Jungle Tension 2",
+          "clipGuid": "4fdb0da4341074049a2a2cad53bc3a2e",
+          "clipPath": "3DGamekit/Audio/Music/Jungle/JungleTension2.aif",
+          "baseVolume": 0,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 2,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Jungle Kalimba Slow",
+          "clipGuid": "b1bf2a6bc4d594c5b8f8352ea0bc5366",
+          "clipPath": "3DGamekit/Audio/Music/Jungle/JungleKalimbaSlow.aif",
+          "baseVolume": 0,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 2,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Jungle Kalimba Fast",
+          "clipGuid": "db562168639194307b8005e81e6710e1",
+          "clipPath": "3DGamekit/Audio/Music/Jungle/JungleKalimbaFast.aif",
+          "baseVolume": 0.67,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 2,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        }
+      ],
+      "outputGuid": "248799cb4acba48f7b3ee842a80f788c",
+      "outputFileId": "-3276756414524636199"
+    },
+    {
+      "spaceId": "Ruines",
+      "name": "Ruines",
+      "bpm": 32,
+      "beatsPerBar": 4,
+      "barsPerLoop": 8,
+      "axes": [
+        {
+          "axisId": "Valence",
+          "levelCount": 2
+        },
+        {
+          "axisId": "Arousal",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Tension",
+          "levelCount": 2
+        }
+      ],
+      "layers": [
+        {
+          "layerId": "Ruines Base",
+          "clipGuid": "0f0c96a3e23264baab8195b1a3bc35e4",
+          "clipPath": "3DGamekit/Audio/Music/Ruines/RuinesBase.aif",
+          "baseVolume": 0.7,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Ruines Base Zen",
+          "clipGuid": "9b65728d85fdd43a0a893e258aeb7288",
+          "clipPath": "3DGamekit/Audio/Music/Ruines/RuinesBaseZen.aif",
+          "baseVolume": 0.7,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Ruines Percussion",
+          "clipGuid": "3953b5bd126444c4ba2ee4ebf4f14d08",
+          "clipPath": "3DGamekit/Audio/Music/Ruines/RuinesPercussion.aif",
+          "baseVolume": 0.7,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Ruines Tension 1",
+          "clipGuid": "720953bbed8334e39900e55319610d56",
+          "clipPath": "3DGamekit/Audio/Music/Ruines/RuinesTension1.aif",
+          "baseVolume": 0,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Ruines Tension 2",
+          "clipGuid": "efc0527494d2549f89885f03f2a26d1f",
+          "clipPath": "3DGamekit/Audio/Music/Ruines/RuinesTension2.aif",
+          "baseVolume": 0,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": true,
+              "minLevel": 2,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Ruines Valence",
+          "clipGuid": "b09f6d496a21d462fbe74d8b43350086",
+          "clipPath": "3DGamekit/Audio/Music/Ruines/RuinesLayerA.aif",
+          "baseVolume": 0,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 2
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 2,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Ruines Valence B",
+          "clipGuid": "da970ba595989416db2f94a295d3ffff",
+          "clipPath": "3DGamekit/Audio/Music/Ruines/RuinesLayerB.aif",
+          "baseVolume": 0,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": true,
+              "minLevel": 2,
+              "maxLevel": 2
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 2,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        }
+      ],
+      "outputGuid": "248799cb4acba48f7b3ee842a80f788c",
+      "outputFileId": "-8568726574492098446"
+    },
+    {
+      "spaceId": "Boss",
+      "name": "Boss",
+      "bpm": 83,
+      "beatsPerBar": 4,
+      "barsPerLoop": 8,
+      "axes": [
+        {
+          "axisId": "ValencePlayer",
+          "levelCount": 1
+        },
+        {
+          "axisId": "ValenceEnemy",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Arousal",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Tension",
+          "levelCount": 3
+        }
+      ],
+      "layers": [
+        {
+          "layerId": "CombatBaseA",
+          "clipGuid": "8f841e979ea80463ab9af22f9ccf3690",
+          "clipPath": "3DGamekit/Audio/Music/Boss1/Boss1BaseA.aif",
+          "baseVolume": 0.7,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "CombatBaseB",
+          "clipGuid": "54c58412f5fbd40b2b134066276092e4",
+          "clipPath": "3DGamekit/Audio/Music/Boss1/Boss1Tension1.aif",
+          "baseVolume": 0.7,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 3
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "CombatPercussion",
+          "clipGuid": "9c958858d62524a42abadd8b40020a47",
+          "clipPath": "3DGamekit/Audio/Music/Boss1/Boss1Percussion.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "CombatPlus",
+          "clipGuid": "ac34fea41992e47d2a39d033cac6e584",
+          "clipPath": "3DGamekit/Audio/Music/Boss1/Boss1Tension2.aif",
+          "baseVolume": 0.7,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 2,
+              "maxLevel": 3
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        }
+      ],
+      "outputGuid": "248799cb4acba48f7b3ee842a80f788c",
+      "outputFileId": "-5536270175391454217"
+    },
+    {
+      "spaceId": "Portail",
+      "name": "Portail",
+      "bpm": 83,
+      "beatsPerBar": 4,
+      "barsPerLoop": 8,
+      "axes": [
+        {
+          "axisId": "Valence",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Arousal",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Tension",
+          "levelCount": 3
+        }
+      ],
+      "layers": [
+        {
+          "layerId": "Portail Base",
+          "clipGuid": "6eb624204f40b407cac219e3ee1b8945",
+          "clipPath": "3DGamekit/Audio/Music/Portail/PortailBase.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Portail Accent",
+          "clipGuid": "c9e5f48cf16454bdaa0a2e1eb6a78c5a",
+          "clipPath": "3DGamekit/Audio/Music/Portail/PortailAccent.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "Valence",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": false,
+          "loopTailLength": {
+            "bars": 0,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Portail Chords",
+          "clipGuid": "ae9ac771c6fb2410281ea85c0e15385c",
+          "clipPath": "3DGamekit/Audio/Music/Portail/PortailChords.aif",
+          "baseVolume": 0.8,
+          "volumeMode": "VolumeEnvelope",
+          "volumeEnvelope": {
+            "axisId": "Valence",
+            "fadeInEnabled": true,
+            "fadeInStart": 0.2,
+            "fadeInEnd": 0.7,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Portail Arps",
+          "clipGuid": "e5a8185c7758042089b062ea2d19d553",
+          "clipPath": "3DGamekit/Audio/Music/Portail/PortailArps.aif",
+          "baseVolume": 0.9,
+          "volumeMode": "VolumeEnvelope",
+          "volumeEnvelope": {
+            "axisId": "Valence",
+            "fadeInEnabled": true,
+            "fadeInStart": 0.4,
+            "fadeInEnd": 1,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0.5,
+            "fadeOutEnd": 1
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        }
+      ],
+      "outputGuid": "248799cb4acba48f7b3ee842a80f788c",
+      "outputFileId": "-562942882741883999",
+      "presetId": "preset-427ddaa1"
+    }
+  ],
+  "transitions": [],
+  "presets": [
+    {
+      "presetId": "preset-427ddaa1",
+      "name": "PortailPreset",
+      "axisBindings": [
+        {
+          "axisName": "Valence",
+          "combinationMode": "HighestWins",
+          "rules": [
+            {
+              "parameterGuid": "87e557990fc294b12a93d7cc0eee4679",
+              "parameterName": "PortailProximity",
+              "mode": "Curve",
+              "thresholds": [],
+              "curve": {
+                "keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inSlope": 1,
+                    "outSlope": 1,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 1,
+                    "inSlope": 1,
+                    "outSlope": 1,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  }
+                ],
+                "preInfinity": 2,
+                "postInfinity": 2
+              },
+              "weight": 0
+            }
+          ]
+        },
+        {
+          "axisName": "Arousal",
+          "combinationMode": "HighestWins",
+          "rules": []
+        },
+        {
+          "axisName": "Tension",
+          "combinationMode": "HighestWins",
+          "rules": []
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "nodePositions": {
+      "__silence__": {
+        "x": -280,
+        "y": 0
+      },
+      "Exploration": {
+        "x": 0,
+        "y": 0
+      },
+      "Combat": {
+        "x": 260,
+        "y": 0
+      },
+      "Jungle": {
+        "x": 520,
+        "y": 0
+      },
+      "Ruines": {
+        "x": 0,
+        "y": 140
+      },
+      "Boss": {
+        "x": 260,
+        "y": 140
+      },
+      "Portail": {
+        "x": 520,
+        "y": 140
+      }
+    }
+  }
+}

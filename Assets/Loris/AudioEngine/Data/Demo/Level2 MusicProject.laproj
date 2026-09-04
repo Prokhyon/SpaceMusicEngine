@@ -1,0 +1,2004 @@
+{
+  "formatVersion": 3,
+  "name": "Level2 MusicProject",
+  "outputGuid": "248799cb4acba48f7b3ee842a80f788c",
+  "outputFileId": "6677770674980757526",
+  "defaultFadeInSeconds": 2,
+  "defaultFadeOutSeconds": 2,
+  "spaces": [
+    {
+      "spaceId": "Seuil",
+      "name": "Seuil",
+      "bpm": 44,
+      "beatsPerBar": 4,
+      "barsPerLoop": 8,
+      "axes": [
+        {
+          "axisId": "Valence",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Arousal",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Tension",
+          "levelCount": 2
+        }
+      ],
+      "layers": [
+        {
+          "layerId": "Seuil Base",
+          "clipGuid": "ef95cda92171f4b35b78f53062c88831",
+          "clipPath": "3DGamekit/Audio/Music/Seuil/SeuilBase.aif",
+          "baseVolume": 0.619,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Seuil Tension Base",
+          "clipGuid": "f088a036d36414b5fb475776120eb0e9",
+          "clipPath": "3DGamekit/Audio/Music/Seuil/SeuilTension1.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Seuil Acid",
+          "clipGuid": "33638918a63494619a2f2cac43cecd03",
+          "clipPath": "3DGamekit/Audio/Music/Seuil/SeuilAcid.aif",
+          "baseVolume": 0.582,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Seuil Tension 2",
+          "clipGuid": "7e3e24e5537f94d029d4abafde7c7520",
+          "clipPath": "3DGamekit/Audio/Music/Seuil/SeuilTension2.aif",
+          "baseVolume": 0.71,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 2,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Seuil Arousal",
+          "clipGuid": "2030559af7fb341bdbc01e314fbbd5b5",
+          "clipPath": "3DGamekit/Audio/Music/Seuil/SeuilArousal.aif",
+          "baseVolume": 0.771,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 2,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        }
+      ],
+      "outputGuid": "248799cb4acba48f7b3ee842a80f788c",
+      "outputFileId": "-6660841111199082399",
+      "presetId": "preset-f3c31af2"
+    },
+    {
+      "spaceId": "Antichambres",
+      "name": "Antichambres",
+      "bpm": 44,
+      "beatsPerBar": 4,
+      "barsPerLoop": 16,
+      "axes": [
+        {
+          "axisId": "Valence",
+          "levelCount": 3
+        },
+        {
+          "axisId": "Arousal",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Tension",
+          "levelCount": 2
+        }
+      ],
+      "layers": [
+        {
+          "layerId": "Antichambres base",
+          "clipGuid": "91e4e14fa459743779260479c72650b1",
+          "clipPath": "3DGamekit/Audio/Music/Antichambres/AntichambresBase.aif",
+          "baseVolume": 0.733,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 0,
+              "maxLevel": 1
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Antichambres Acid",
+          "clipGuid": "6e77439587c224a7fbef9dcd86892660",
+          "clipPath": "3DGamekit/Audio/Music/Antichambres/AntichambresAcid.aif",
+          "baseVolume": 0.586,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": true,
+              "minLevel": 3,
+              "maxLevel": 3
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Antichambres Light",
+          "clipGuid": "ddd07c5604e064a8db76f0fcb0441a31",
+          "clipPath": "3DGamekit/Audio/Music/Antichambres/AntichambresLight.aif",
+          "baseVolume": 0.601,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Antichambres Anti Arousal",
+          "clipGuid": "e142ca9a5c80b448db918b1e41401e3d",
+          "clipPath": "3DGamekit/Audio/Music/Antichambres/AntichambresAntiArousal.aif",
+          "baseVolume": 0.499,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Antichambres Tension 1",
+          "clipGuid": "6b1d13fbf846a45c9b5c9db83a840ccc",
+          "clipPath": "3DGamekit/Audio/Music/Antichambres/AntichambresTension1.aif",
+          "baseVolume": 0.741,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Antichambres Tension 2",
+          "clipGuid": "43d05e9807db747b2b0ab563cd4583a6",
+          "clipPath": "3DGamekit/Audio/Music/Antichambres/AntichambresTension2.aif",
+          "baseVolume": 0.461,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 2,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Antichambres Dark",
+          "clipGuid": "432716dea02074ce9a83f1a25545f786",
+          "clipPath": "3DGamekit/Audio/Music/Antichambres/AntichambresDark.aif",
+          "baseVolume": 0.688,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": true,
+              "minLevel": 3,
+              "maxLevel": 3
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Antichambres Wild",
+          "clipGuid": "e6ca6d39741cd4e35b7906bcb8c8e921",
+          "clipPath": "3DGamekit/Audio/Music/Antichambres/AntichambresWild.aif",
+          "baseVolume": 0.407,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": true,
+              "minLevel": 2,
+              "maxLevel": 2
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Antichambres Arousal",
+          "clipGuid": "38e2a7231440c4765b168bf7ac0cf0c7",
+          "clipPath": "3DGamekit/Audio/Music/Antichambres/AntichambresArousal.aif",
+          "baseVolume": 0.544,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 2,
+              "maxLevel": 2
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 2
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        }
+      ],
+      "outputGuid": "248799cb4acba48f7b3ee842a80f788c",
+      "outputFileId": "-4824555662058644254",
+      "presetId": "preset-78128e72"
+    },
+    {
+      "spaceId": "Boss2",
+      "name": "Boss2",
+      "bpm": 83,
+      "beatsPerBar": 4,
+      "barsPerLoop": 8,
+      "axes": [
+        {
+          "axisId": "ValencePlayer",
+          "levelCount": 1
+        },
+        {
+          "axisId": "ValenceEnemy",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Arousal",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Tension",
+          "levelCount": 3
+        }
+      ],
+      "layers": [
+        {
+          "layerId": "Combat 2 base",
+          "clipGuid": "58f800d3364644c8a8edcc0dcda0bfb4",
+          "clipPath": "3DGamekit/Audio/Music/Combat 2/Boss2Base.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Boss2 Layer A",
+          "clipGuid": "9505257b4e1ee47269dda2dc1126f36c",
+          "clipPath": "3DGamekit/Audio/Music/Combat 2/Boss2LayerA.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 3
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Boss2 Layer B",
+          "clipGuid": "c4e3b0bd433a64ea7a7a0afd9c16bbf9",
+          "clipPath": "3DGamekit/Audio/Music/Combat 2/Boss2LayerB.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 2,
+              "maxLevel": 3
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Boss2 Layer C",
+          "clipGuid": "1a2d3024b0d0d42b69391eb784dc430f",
+          "clipPath": "3DGamekit/Audio/Music/Combat 2/Boss2LayerC.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 3,
+              "maxLevel": 3
+            }
+          ],
+          "entryQuantization": "NextBar",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Boss2 Arousal",
+          "clipGuid": "a7c200f5afdb34de193d790c42843774",
+          "clipPath": "3DGamekit/Audio/Music/Combat 2/Boss2Arousal.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 3
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Boss2 Valence Player",
+          "clipGuid": "7c1a10028f114427bacb8f637b476adf",
+          "clipPath": "3DGamekit/Audio/Music/Combat 2/Boss2ValencePlayer.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 3
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Boss2 Valence Enemy",
+          "clipGuid": "793bea7f710ed4bbb84e4062aa36b137",
+          "clipPath": "3DGamekit/Audio/Music/Combat 2/Boss2ValenceEnemy.aif",
+          "baseVolume": 0.611,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 3
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Boss2 Valence Enemy Brass",
+          "clipGuid": "1e86118cb0a374c20bbceb01ee0a1f8e",
+          "clipPath": "3DGamekit/Audio/Music/Boss1/Boss1EnemyValence.aif",
+          "baseVolume": 1,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 3
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        }
+      ],
+      "outputGuid": "248799cb4acba48f7b3ee842a80f788c",
+      "outputFileId": "2895301104661058198",
+      "presetId": "preset-9177d79e"
+    },
+    {
+      "spaceId": "Courtyard",
+      "name": "Courtyard",
+      "bpm": 83,
+      "beatsPerBar": 4,
+      "barsPerLoop": 8,
+      "axes": [
+        {
+          "axisId": "Valence",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Arousal",
+          "levelCount": 1
+        },
+        {
+          "axisId": "Tension",
+          "levelCount": 1
+        }
+      ],
+      "layers": [
+        {
+          "layerId": "Courtyard base",
+          "clipGuid": "556ca92236aa843b2a9eee14017304d8",
+          "clipPath": "3DGamekit/Audio/Music/Courtyard/CourtyardBase.aif",
+          "baseVolume": 0.709,
+          "volumeMode": "Stepped",
+          "volumeEnvelope": {
+            "axisId": "",
+            "fadeInEnabled": false,
+            "fadeInStart": 0,
+            "fadeInEnd": 0,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            }
+          ],
+          "entryQuantization": "NextBeat",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Courtyard Layer A",
+          "clipGuid": "318300e5fd0e74318b073ce7c032bac0",
+          "clipPath": "3DGamekit/Audio/Music/Courtyard/CourtyardLayerA.aif",
+          "baseVolume": 1,
+          "volumeMode": "VolumeEnvelope",
+          "volumeEnvelope": {
+            "axisId": "Valence",
+            "fadeInEnabled": true,
+            "fadeInStart": 0,
+            "fadeInEnd": 0.5,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Courtyard Layer B",
+          "clipGuid": "07ca76d1e30a4492da374acbef2a0218",
+          "clipPath": "3DGamekit/Audio/Music/Courtyard/CourtyardLayerB.aif",
+          "baseVolume": 1,
+          "volumeMode": "VolumeEnvelope",
+          "volumeEnvelope": {
+            "axisId": "Valence",
+            "fadeInEnabled": true,
+            "fadeInStart": 0.2,
+            "fadeInEnd": 0.6,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        },
+        {
+          "layerId": "Courtyard Layer C",
+          "clipGuid": "bb8b198a34b13499ab7bb5dc462e4d38",
+          "clipPath": "3DGamekit/Audio/Music/Courtyard/CourtyardLayerC.aif",
+          "baseVolume": 1,
+          "volumeMode": "VolumeEnvelope",
+          "volumeEnvelope": {
+            "axisId": "Valence",
+            "fadeInEnabled": true,
+            "fadeInStart": 0.35,
+            "fadeInEnd": 0.65,
+            "fadeOutEnabled": false,
+            "fadeOutStart": 0,
+            "fadeOutEnd": 0
+          },
+          "axisFilters": [
+            {
+              "enabled": true,
+              "minLevel": 1,
+              "maxLevel": 1
+            },
+            {
+              "enabled": false,
+              "minLevel": 0,
+              "maxLevel": 0
+            },
+            {
+              "enabled": false,
+              "minLevel": 1,
+              "maxLevel": 1
+            }
+          ],
+          "entryQuantization": "Immediate",
+          "loopTailEnabled": true,
+          "loopTailLength": {
+            "bars": 1,
+            "beats": 0
+          }
+        }
+      ],
+      "outputGuid": "248799cb4acba48f7b3ee842a80f788c",
+      "outputFileId": "-6514607239289202067",
+      "presetId": "preset-427ddaa1"
+    }
+  ],
+  "transitions": [
+    {
+      "transitionId": "Seuil->Antichambres",
+      "fromSpaceId": "Seuil",
+      "toSpaceId": "Antichambres",
+      "hasTrack": true,
+      "clipGuid": "668715fcb995c4c28876ffdc53cd5495",
+      "clipPath": "3DGamekit/Audio/Music/Transitions/SeuilAntichambresTransitionB.aif",
+      "outputGuid": "248799cb4acba48f7b3ee842a80f788c",
+      "outputFileId": "-6660841111199082399",
+      "bpm": 44,
+      "beatsPerBar": 4,
+      "lengthBars": 2,
+      "useCustomTransitionLength": true,
+      "transitionLength": {
+        "bars": 1,
+        "beats": 0
+      },
+      "sourceExit": "FadeOut",
+      "keepSourcePlaying": true,
+      "keepSourceUntilEndOfTrack": true,
+      "keepSourceUntil": {
+        "bar": 3,
+        "beat": 0
+      },
+      "triggerMode": "Frequency",
+      "variants": [],
+      "frequency": {
+        "bars": 0,
+        "beats": 1
+      },
+      "defaultTrackStart": {
+        "bar": 2,
+        "beat": 0
+      },
+      "arrivalMode": "Fixed",
+      "resumeOffsetBars": 0,
+      "fixedArrival": {
+        "bar": 1,
+        "beat": 1
+      },
+      "playTail": true,
+      "tailLength": {
+        "bars": 2,
+        "beats": 0
+      },
+      "tailTempo": "Transition"
+    },
+    {
+      "transitionId": "Boss2->Courtyard",
+      "fromSpaceId": "Boss2",
+      "toSpaceId": "Courtyard",
+      "hasTrack": true,
+      "clipGuid": "97ce9699bed4841cab270e2ecae777bc",
+      "clipPath": "3DGamekit/Audio/Music/Transitions/Boss2CourtyardTransition.aif",
+      "outputGuid": "248799cb4acba48f7b3ee842a80f788c",
+      "outputFileId": "-6514607239289202067",
+      "bpm": 83,
+      "beatsPerBar": 4,
+      "lengthBars": 3,
+      "useCustomTransitionLength": false,
+      "transitionLength": {
+        "bars": 7,
+        "beats": 0
+      },
+      "sourceExit": "Cut",
+      "keepSourcePlaying": true,
+      "keepSourceUntilEndOfTrack": false,
+      "keepSourceUntil": {
+        "bar": 2,
+        "beat": 0
+      },
+      "triggerMode": "Frequency",
+      "variants": [],
+      "frequency": {
+        "bars": 0,
+        "beats": 1
+      },
+      "defaultTrackStart": {
+        "bar": 0,
+        "beat": 0
+      },
+      "arrivalMode": "Fixed",
+      "resumeOffsetBars": 0,
+      "fixedArrival": {
+        "bar": 1,
+        "beat": 1
+      },
+      "playTail": true,
+      "tailLength": {
+        "bars": 2,
+        "beats": 0
+      },
+      "tailTempo": "Transition"
+    },
+    {
+      "transitionId": "Antichambres->Boss2",
+      "fromSpaceId": "Antichambres",
+      "toSpaceId": "Boss2",
+      "hasTrack": true,
+      "clipGuid": "d23bf966252194f88820ebe9545ca632",
+      "clipPath": "3DGamekit/Audio/Music/Transitions/RuinesBoss1TransitionC.aif",
+      "outputGuid": "248799cb4acba48f7b3ee842a80f788c",
+      "outputFileId": "-2102556990357349639",
+      "bpm": 32,
+      "beatsPerBar": 4,
+      "lengthBars": 1,
+      "useCustomTransitionLength": false,
+      "transitionLength": {
+        "bars": 7,
+        "beats": 0
+      },
+      "sourceExit": "FadeOut",
+      "keepSourcePlaying": false,
+      "keepSourceUntilEndOfTrack": false,
+      "keepSourceUntil": {
+        "bar": 3,
+        "beat": 0
+      },
+      "triggerMode": "Frequency",
+      "variants": [],
+      "frequency": {
+        "bars": 0,
+        "beats": 0
+      },
+      "defaultTrackStart": {
+        "bar": 0,
+        "beat": 0
+      },
+      "arrivalMode": "Fixed",
+      "resumeOffsetBars": 0,
+      "fixedArrival": {
+        "bar": 1,
+        "beat": 1
+      },
+      "playTail": true,
+      "tailLength": {
+        "bars": 1,
+        "beats": 0
+      },
+      "tailTempo": "Transition"
+    }
+  ],
+  "presets": [
+    {
+      "presetId": "preset-f3c31af2",
+      "name": "SeuilPreset",
+      "axisBindings": [
+        {
+          "axisName": "Valence",
+          "combinationMode": "HighestWins",
+          "rules": [
+            {
+              "parameterGuid": "85da6b74d17a7490ea252ada38675f54",
+              "parameterName": "ValenceZone",
+              "mode": "Threshold",
+              "thresholds": [
+                {
+                  "atLeast": 0,
+                  "result": 0
+                },
+                {
+                  "atLeast": 1,
+                  "result": 1
+                }
+              ],
+              "curve": {
+                "keys": [
+                  {
+                    "time": 0,
+                    "value": 1,
+                    "inSlope": 0,
+                    "outSlope": 0,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 0,
+                    "inSlope": 0,
+                    "outSlope": 0,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  }
+                ],
+                "preInfinity": 2,
+                "postInfinity": 2
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "axisName": "Arousal",
+          "combinationMode": "HighestWins",
+          "rules": [
+            {
+              "parameterGuid": "a47ccde61efb04ad5ac14de63b6b984d",
+              "parameterName": "PlayerSpeed",
+              "mode": "Threshold",
+              "thresholds": [
+                {
+                  "atLeast": 0,
+                  "result": 0
+                },
+                {
+                  "atLeast": 3,
+                  "result": 1
+                }
+              ],
+              "curve": {
+                "keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inSlope": 0,
+                    "outSlope": 1,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 1,
+                    "inSlope": 1,
+                    "outSlope": 0,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  }
+                ],
+                "preInfinity": 2,
+                "postInfinity": 2
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "axisName": "Tension",
+          "combinationMode": "HighestWins",
+          "rules": [
+            {
+              "parameterGuid": "755e895c9fb164e14a0fd3ae379e3e4c",
+              "parameterName": "EnemyCount",
+              "mode": "Threshold",
+              "thresholds": [
+                {
+                  "atLeast": 0,
+                  "result": 0
+                },
+                {
+                  "atLeast": 0.5,
+                  "result": 0.5
+                }
+              ],
+              "curve": {
+                "keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inSlope": 0,
+                    "outSlope": 1,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 1,
+                    "inSlope": 1,
+                    "outSlope": 0,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  }
+                ],
+                "preInfinity": 2,
+                "postInfinity": 2
+              },
+              "weight": 1
+            },
+            {
+              "parameterGuid": "8eeba3340744b4578b92996c7bf684ef",
+              "parameterName": "EnemyAwareness",
+              "mode": "Threshold",
+              "thresholds": [
+                {
+                  "atLeast": 0,
+                  "result": 0
+                },
+                {
+                  "atLeast": 0.5,
+                  "result": 1
+                }
+              ],
+              "curve": {
+                "keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inSlope": 0,
+                    "outSlope": 1,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 1,
+                    "inSlope": 1,
+                    "outSlope": 0,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  }
+                ],
+                "preInfinity": 2,
+                "postInfinity": 2
+              },
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "presetId": "preset-78128e72",
+      "name": "AntichambresPreset",
+      "axisBindings": [
+        {
+          "axisName": "Valence",
+          "combinationMode": "HighestWins",
+          "rules": [
+            {
+              "parameterGuid": "85da6b74d17a7490ea252ada38675f54",
+              "parameterName": "ValenceZone",
+              "mode": "Threshold",
+              "thresholds": [
+                {
+                  "atLeast": 0,
+                  "result": 0
+                },
+                {
+                  "atLeast": 0.33,
+                  "result": 0.34
+                },
+                {
+                  "atLeast": 0.66,
+                  "result": 0.67
+                },
+                {
+                  "atLeast": 1,
+                  "result": 1
+                }
+              ],
+              "curve": {
+                "keys": [
+                  {
+                    "time": 0,
+                    "value": 1,
+                    "inSlope": 0,
+                    "outSlope": 0,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 0,
+                    "inSlope": 0,
+                    "outSlope": 0,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  }
+                ],
+                "preInfinity": 2,
+                "postInfinity": 2
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "axisName": "Arousal",
+          "combinationMode": "HighestWins",
+          "rules": [
+            {
+              "parameterGuid": "a47ccde61efb04ad5ac14de63b6b984d",
+              "parameterName": "PlayerSpeed",
+              "mode": "Threshold",
+              "thresholds": [
+                {
+                  "atLeast": 0,
+                  "result": 0
+                },
+                {
+                  "atLeast": 3,
+                  "result": 1
+                }
+              ],
+              "curve": {
+                "keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inSlope": 0,
+                    "outSlope": 1,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 1,
+                    "inSlope": 1,
+                    "outSlope": 0,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  }
+                ],
+                "preInfinity": 2,
+                "postInfinity": 2
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "axisName": "Tension",
+          "combinationMode": "HighestWins",
+          "rules": [
+            {
+              "parameterGuid": "755e895c9fb164e14a0fd3ae379e3e4c",
+              "parameterName": "EnemyCount",
+              "mode": "Threshold",
+              "thresholds": [
+                {
+                  "atLeast": 0,
+                  "result": 0
+                },
+                {
+                  "atLeast": 0.5,
+                  "result": 0.5
+                }
+              ],
+              "curve": {
+                "keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inSlope": 0,
+                    "outSlope": 1,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 1,
+                    "inSlope": 1,
+                    "outSlope": 0,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  }
+                ],
+                "preInfinity": 2,
+                "postInfinity": 2
+              },
+              "weight": 1
+            },
+            {
+              "parameterGuid": "8eeba3340744b4578b92996c7bf684ef",
+              "parameterName": "EnemyAwareness",
+              "mode": "Threshold",
+              "thresholds": [
+                {
+                  "atLeast": 0,
+                  "result": 0
+                },
+                {
+                  "atLeast": 0.5,
+                  "result": 1
+                }
+              ],
+              "curve": {
+                "keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inSlope": 0,
+                    "outSlope": 1,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 1,
+                    "inSlope": 1,
+                    "outSlope": 0,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  }
+                ],
+                "preInfinity": 2,
+                "postInfinity": 2
+              },
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "presetId": "preset-9177d79e",
+      "name": "BossCombatPreset",
+      "axisBindings": [
+        {
+          "axisName": "Arousal",
+          "combinationMode": "HighestWins",
+          "rules": [
+            {
+              "parameterGuid": "a47ccde61efb04ad5ac14de63b6b984d",
+              "parameterName": "PlayerSpeed",
+              "mode": "Threshold",
+              "thresholds": [
+                {
+                  "atLeast": 0,
+                  "result": 0
+                },
+                {
+                  "atLeast": 4,
+                  "result": 1
+                }
+              ],
+              "curve": {
+                "keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inSlope": 0,
+                    "outSlope": 1,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 1,
+                    "inSlope": 1,
+                    "outSlope": 0,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  }
+                ],
+                "preInfinity": 2,
+                "postInfinity": 2
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "axisName": "Tension",
+          "combinationMode": "HighestWins",
+          "rules": [
+            {
+              "parameterGuid": "c625f03684fe49c994c90847e9143351",
+              "parameterName": "EnemyHealth",
+              "mode": "Threshold",
+              "thresholds": [
+                {
+                  "atLeast": 0.67,
+                  "result": 0
+                },
+                {
+                  "atLeast": 0.34,
+                  "result": 0.677
+                },
+                {
+                  "atLeast": 0,
+                  "result": 1
+                }
+              ],
+              "curve": {
+                "keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inSlope": 0,
+                    "outSlope": 1,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 1,
+                    "inSlope": 1,
+                    "outSlope": 0,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  }
+                ],
+                "preInfinity": 2,
+                "postInfinity": 2
+              },
+              "weight": 1
+            },
+            {
+              "parameterGuid": "53870ab31fa14491b668ebb71d28bdf4",
+              "parameterName": "BossDetected",
+              "mode": "Threshold",
+              "thresholds": [
+                {
+                  "atLeast": 0,
+                  "result": 0
+                },
+                {
+                  "atLeast": 0.34,
+                  "result": 0.33
+                }
+              ],
+              "curve": {
+                "keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inSlope": 0,
+                    "outSlope": 1,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 1,
+                    "inSlope": 1,
+                    "outSlope": 0,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  }
+                ],
+                "preInfinity": 2,
+                "postInfinity": 2
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "axisName": "ValencePlayer",
+          "combinationMode": "HighestWins",
+          "rules": [
+            {
+              "parameterGuid": "ac9ce1ae887c941f2a294ce11bab89ea",
+              "parameterName": "PlayerDealtDamage",
+              "mode": "Threshold",
+              "thresholds": [
+                {
+                  "atLeast": 0,
+                  "result": 0
+                },
+                {
+                  "atLeast": 0.5,
+                  "result": 1
+                }
+              ],
+              "curve": {
+                "keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inSlope": 0,
+                    "outSlope": 1,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 1,
+                    "inSlope": 1,
+                    "outSlope": 0,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  }
+                ],
+                "preInfinity": 2,
+                "postInfinity": 2
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "axisName": "ValenceEnemy",
+          "combinationMode": "HighestWins",
+          "rules": [
+            {
+              "parameterGuid": "3212e5aa25ca54b0ea9d1bb7505e8526",
+              "parameterName": "PlayerTookDamage",
+              "mode": "Threshold",
+              "thresholds": [
+                {
+                  "atLeast": 0,
+                  "result": 0
+                },
+                {
+                  "atLeast": 0.5,
+                  "result": 1
+                }
+              ],
+              "curve": {
+                "keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inSlope": 0,
+                    "outSlope": 1,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 1,
+                    "inSlope": 1,
+                    "outSlope": 0,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  }
+                ],
+                "preInfinity": 2,
+                "postInfinity": 2
+              },
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "presetId": "preset-427ddaa1",
+      "name": "PortailPreset",
+      "axisBindings": [
+        {
+          "axisName": "Valence",
+          "combinationMode": "HighestWins",
+          "rules": [
+            {
+              "parameterGuid": "87e557990fc294b12a93d7cc0eee4679",
+              "parameterName": "PortailProximity",
+              "mode": "Curve",
+              "thresholds": [],
+              "curve": {
+                "keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inSlope": 1,
+                    "outSlope": 1,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 1,
+                    "inSlope": 1,
+                    "outSlope": 1,
+                    "inWeight": 0,
+                    "outWeight": 0,
+                    "weightedMode": 0
+                  }
+                ],
+                "preInfinity": 2,
+                "postInfinity": 2
+              },
+              "weight": 0
+            }
+          ]
+        },
+        {
+          "axisName": "Arousal",
+          "combinationMode": "HighestWins",
+          "rules": []
+        },
+        {
+          "axisName": "Tension",
+          "combinationMode": "HighestWins",
+          "rules": []
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "nodePositions": {
+      "__silence__": {
+        "x": -280,
+        "y": 0
+      },
+      "Seuil": {
+        "x": 0,
+        "y": 0
+      },
+      "Antichambres": {
+        "x": 260,
+        "y": 0
+      },
+      "Boss2": {
+        "x": 520,
+        "y": 0
+      },
+      "Courtyard": {
+        "x": 0,
+        "y": 140
+      }
+    }
+  }
+}

@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dba4b69eab47a4739aa9b937594ff8c7, type: 3}
+  m_Name: IEQQuestionnaire
+  m_EditorClassIdentifier: Assembly-CSharp::Gamekit3D.Experiment.QuestionnaireDefinition
+  title: Immersive Experience Questionnaire (IEQ)
+  items:
+  - id: ieq_1
+    text: Dans quelle mesure le jeu a-t-il retenu votre attention ? (1 = Pas du tout,
+      7 = Beaucoup)
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_2
+    text: "Dans quelle mesure vous \xEAtes-vous senti(e) concentr\xE9(e) sur le jeu
+      ? (1 = Pas du tout, 7 = Beaucoup)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_3
+    text: "Quel effort avez-vous fourni pour jouer \xE0 ce jeu ? (1 = Tr\xE8s peu,
+      7 = Beaucoup)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_4
+    text: "Avez-vous eu l'impression de donner le meilleur de vous-m\xEAme ? (1 =
+      Pas du tout, 7 = Tout \xE0 fait)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_5
+    text: "Dans quelle mesure avez-vous perdu la notion du temps, c'est-\xE0-dire
+      le jeu a-t-il absorb\xE9 votre attention au point de ne pas vous ennuyer ?
+      (1 = Pas du tout, 7 = Beaucoup)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_6
+    text: "Dans quelle mesure \xE9tiez-vous consciemment conscient(e) d'\xEAtre dans
+      le monde r\xE9el pendant que vous jouiez ? (1 = Pas du tout, 7 = Tout \xE0
+      fait)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 1
+  - id: ieq_7
+    text: "Dans quelle mesure avez-vous oubli\xE9 vos pr\xE9occupations quotidiennes
+      ? (1 = Pas du tout, 7 = Beaucoup)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_8
+    text: "Dans quelle mesure \xE9tiez-vous conscient(e) de vous-m\xEAme dans votre
+      environnement ? (1 = Pas du tout, 7 = Tr\xE8s conscient(e))"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 1
+  - id: ieq_9
+    text: "Dans quelle mesure avez-vous remarqu\xE9 les \xE9v\xE9nements se produisant
+      autour de vous ? (1 = Pas du tout, 7 = Beaucoup)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 1
+  - id: ieq_10
+    text: "Avez-vous, \xE0 un moment donn\xE9, ressenti l'envie d'arr\xEAter de jouer
+      pour voir ce qui se passait autour de vous ? (1 = Pas du tout, 7 = Tout \xE0
+      fait)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 1
+  - id: ieq_11
+    text: "Dans quelle mesure avez-vous eu l'impression d'interagir avec l'environnement
+      du jeu ? (1 = Pas du tout, 7 = Tout \xE0 fait)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_12
+    text: "Dans quelle mesure avez-vous eu l'impression d'\xEAtre s\xE9par\xE9(e)
+      de votre environnement r\xE9el ? (1 = Pas du tout, 7 = Tout \xE0 fait)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_13
+    text: "Dans quelle mesure avez-vous eu l'impression que le jeu \xE9tait une exp\xE9rience
+      amusante plut\xF4t qu'une t\xE2che que vous accomplissiez ? (1 = Pas du tout,
+      7 = Tout \xE0 fait)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_14
+    text: "Dans quelle mesure votre sentiment d'\xEAtre dans l'environnement du jeu
+      \xE9tait-il plus fort que votre sentiment d'\xEAtre dans le monde r\xE9el ?
+      (1 = Pas du tout, 7 = Tout \xE0 fait)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_15
+    text: "Vous \xEAtes-vous, \xE0 un moment donn\xE9, senti(e) tellement impliqu\xE9(e)
+      que vous ne remarquiez m\xEAme plus utiliser les commandes, comme si cela devenait
+      sans effort ? (1 = Pas du tout, 7 = Tout \xE0 fait)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_16
+    text: "Dans quelle mesure avez-vous eu l'impression de vous d\xE9placer dans
+      le jeu selon votre propre volont\xE9 ? (1 = Pas du tout, 7 = Tout \xE0 fait)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_17
+    text: "Dans quelle mesure avez-vous trouv\xE9 le jeu difficile ? (1 = Pas du
+      tout, 7 = Tr\xE8s difficile)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_18
+    text: "Y a-t-il eu des moments pendant le jeu o\xF9 vous avez simplement eu envie
+      d'abandonner ? (1 = Pas du tout, 7 = Beaucoup)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 1
+  - id: ieq_19
+    text: "Dans quelle mesure vous \xEAtes-vous senti(e) motiv\xE9(e) en jouant ?
+      (1 = Pas du tout, 7 = Beaucoup)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_20
+    text: "Dans quelle mesure avez-vous trouv\xE9 le jeu facile ? (1 = Pas du tout,
+      7 = Tout \xE0 fait)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 1
+  - id: ieq_21
+    text: Dans quelle mesure aviez-vous l'impression de progresser vers la fin du
+      jeu ? (1 = Pas du tout, 7 = Beaucoup)
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_22
+    text: "Selon vous, \xE0 quel point avez-vous bien perform\xE9 dans le jeu ? (1
+      = Tr\xE8s mal, 7 = Tr\xE8s bien)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_23
+    text: "Dans quelle mesure vous \xEAtes-vous senti(e) \xE9motionnellement attach\xE9(e)
+      au jeu ? (1 = Pas du tout, 7 = Tout \xE0 fait)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_24
+    text: "Dans quelle mesure \xE9tiez-vous int\xE9ress\xE9(e) de voir comment les
+      \xE9v\xE9nements du jeu allaient \xE9voluer ? (1 = Pas du tout, 7 = Beaucoup)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_25
+    text: "\xC0 quel point vouliez-vous \xAB gagner \xBB la partie ? (1 = Pas du
+      tout, 7 = Tout \xE0 fait)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_26
+    text: "\xC9tiez-vous en suspense quant \xE0 savoir si vous alliez bien vous en
+      sortir dans le jeu ? (1 = Pas du tout, 7 = Tout \xE0 fait)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_27
+    text: "Vous \xEAtes-vous, \xE0 un moment donn\xE9, senti(e) tellement impliqu\xE9(e)
+      que vous avez eu envie de parler directement au jeu ? (1 = Pas du tout, 7 =
+      Tout \xE0 fait)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_28
+    text: "Dans quelle mesure avez-vous appr\xE9ci\xE9 les graphismes et l'esth\xE9tique
+      visuelle ? (1 = Pas du tout, 7 = Beaucoup)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_29
+    text: "Dans quelle mesure diriez-vous avoir aim\xE9 jouer \xE0 ce jeu ? (1 =
+      Pas du tout, 7 = Beaucoup)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_30
+    text: "Lorsque la partie s'est termin\xE9e, avez-vous \xE9t\xE9 d\xE9\xE7u(e)
+      que ce soit fini ? (1 = Pas du tout, 7 = Tout \xE0 fait)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_31
+    text: "Souhaiteriez-vous rejouer \xE0 ce jeu ? (1 = Certainement pas, 7 = Certainement
+      oui)"
+    type: 4
+    options: []
+    required: 1
+    reverseScored: 0
+  - id: ieq_immersion_single
+    text: "Dans quelle mesure vous \xEAtes-vous senti(e) immerg\xE9(e) ? (1 = Pas
+      du tout immerg\xE9(e), 10 = Tr\xE8s immerg\xE9(e))"
+    type: 5
+    options: []
+    required: 1
+    reverseScored: 0
